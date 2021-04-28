@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fbstyle.css">
+    <title>Login</title>
+</head>
+<script>
+    function signup_form(){
+        document.getElementById("signup").style.display="block";
+    }
+    function close_form(){
+        document.getElementById("signup").style.display="none";
+    }
+    
+</script>
+<body>
+    <div class="fbhome">
+        <div>
+        <input type="text" id="email" placeholder="Email address or phone">
+        <input type="password" id="password" placeholder="Password">
+        <a class="link1" href="#"><h1>Login</h1></a>
+        <div>
+            <a onclick="signup_form()"class="link2" href="#signup"><h1>Create an account</h1></a>
+        </div>
+    </div>
+
+    </div>
+    <div class="signup_page" id="signup">
+    <form class="signup1">
+        <h1>Sign Up</h1>
+        <p>its quick and easy</p>
+        <div class="name">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Surname">
+        </div>
+        <div class="mail">
+        <input type="text" placeholder="Mobile number or email address">
+        </div>
+        <div class="pass">
+        <input type="password" id="password" placeholder="New Password">
+    </div>
+    <div class="dob">
+        <label for="dob">Date of birth</label>
+        <input type="date">
+    </div>
+        
+        <div class="gender"> 
+            <label for="Gender">Gender</label>
+            Female<input type="radio" name="Gender" value="Female" id="Gender">
+            Male<input type="radio" name="Gender" value="male" id="Gender">
+            Custom<input type="radio" name="Gender" value="Custom" id="Gender">
+        </div>
+        <div class="terms">
+            <p>
+                By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+            </p>
+            <button class="sign" onclick="close_form()"><h1>Sign Up</h1></button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

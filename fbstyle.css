@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ddd;
+    overflow: hidden;
+    
+}
+.fbhome{
+    margin:auto;
+    /* display:block; */
+    border:1px #eee solid;
+    background-color: #fff;
+    border-radius:10px;
+    width:400px;
+    height: 400px;
+}
+.fbhome input{
+
+    width:300px;
+    height:50px;
+    margin:20px 40px;
+    display:block;
+    border:1px #ddd solid;
+    border-radius: 10px;
+}
+.fbhome a{
+    display:flex;
+    width:300px;
+    height:50px;
+    text-decoration: none;
+    color:#fff;
+    margin:20px 40px;  
+    border-radius:5px;
+
+}
+.fbhome a h1{
+    width:300px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: medium;
+}
+.fbhome .link1{
+    background-color: rgb(37, 37, 240);
+}
+.fbhome .link2{
+    background-color: green;
+}
+.signup_page .signup1{
+    
+    display:block;
+    margin:100px 400px;
+    background-color: #fff;
+    border:1px #eee solid;
+    border-radius:10px;
+    width:400px;
+    height: 550px;
+    
+}
+.signup_page{
+    top:0;
+    position:fixed;
+    display:none;
+    background-color: rgba(0,0,0,0.2);
+    width:100%;
+    height: 900px;
+}
+.signup_page .signup1 h1{
+    padding:10px;
+
+}
+.signup_page .signup1 p{
+    color:grey;
+    padding:0px 10px 10px 10px;
+    border-bottom: 1px grey solid; 
+}
+.signup_page .signup1 .name{
+    padding:10px;
+    width: 400px;
+}
+.signup_page .signup1 .name input{
+    width:180px;
+    height:40px;
+    border:1px #ddd solid;
+    border-radius:   5px;
+}
+.signup_page .signup1 .mail input{
+    width:360px;
+    padding:10px;   
+    border:1px #ddd solid;
+    border-radius:5px;  
+}
+.signup_page .signup1 .mail{
+    padding:10px;   
+}
+.signup_page .signup1 .pass input{
+    width:360px;
+    padding:10px;   
+    border:1px #ddd solid;
+    border-radius:5px;  
+}
+.signup_page .signup1 .pass{
+    padding:10px;   
+}
+.signup_page .signup1 .dob input{
+    margin:10px;
+    width:360px;
+    padding:10px;   
+    border:1px #ddd solid;
+    border-radius:5px; 
+}
+.signup_page .signup1 .dob label{
+    font-size: 12px;
+    padding-left:10px;
+}
+.signup_page .signup1 .gender label{
+    font-size: 12px;
+    padding-left:10px;
+}
+.signup_page .signup1 .gender {
+    margin:10px;
+    width:360px;
+    padding:10px;   
+    border:1px #ddd solid;
+    border-radius:5px;      
+}
+.signup_page .signup1 .gender input{
+    margin:10px;
+
+}
+.signup_page .signup1 .terms{
+    font-size: 10px;
+}
+.signup_page .signup1 .terms .sign{
+    background-color: green;
+    display:flex;
+    width:300px;
+    height:50px;
+    text-decoration: none;
+    color:#fff;
+    margin:20px 40px;  
+    border-radius:5px;
+}
+.signup_page .signup1 .terms .sign h1{
+    width:300px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: medium;
+}
